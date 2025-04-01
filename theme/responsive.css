@@ -145,9 +145,7 @@
 	/* Logo block
 	----------------------------------------*/
 	.site-description {
-		float: none;
 		width: auto;
-		text-align: center;
 	}
 
 	.logo {
@@ -527,14 +525,6 @@
 	.attach-comment dfn {
 		width: 100%;
 	}
-
-         .site-description-description {
-                  display: none;
-         }
-
-         .site-description {
-                  display: block;
-         }
 }
 
 @media (min-width: 701px) {
