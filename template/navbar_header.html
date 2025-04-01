@@ -135,7 +135,7 @@
 				{% set NAVLINK_LINK = navlink.U_BREADCRUMB | default(navlink.U_VIEW_FORUM) %}
 
 				{% EVENT overall_header_navlink_prepend %}
-				<span class="crumb" {{ MICRODATA }}{% if navlink.MICRODATA %} {{ navlink.MICRODATA }}{% endif %}><a itemprop="item" href="{{ NAVLINK_LINK }}"><span itemprop="name">{{ NAVLINK_NAME }}</span></a><meta itemprop="position" content="{{ navlink_position }}{% set navlink_position = navlink_position + 1 %}" /></span>
+				<span class="crumb" {{ MICRODATA }}{% if navlink.MICRODATA %} {{ navlink.MICRODATA }}{% endif %}><a itemprop="item" href="{{ NAVLINK_LINK }}"><span itemprop="name">{{ NAVLINK_NAME }}</span></a><meta itemprop="position" content="{{ navlink_position }}{% set navlink_position = navlink_position + 1 %}" />{{ NAVLINK_NAME }}</span>
 				{% EVENT overall_header_navlink_append %}
 			{% endfor %}
 

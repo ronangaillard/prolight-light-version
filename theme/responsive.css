@@ -525,6 +525,10 @@
 	.attach-comment dfn {
 		width: 100%;
 	}
+
+         .navbar-top .rightside i + span, .navbar-bottom i + span {
+                  display: none;
+         }
 }
 
 @media (min-width: 701px) {

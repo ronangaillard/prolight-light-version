@@ -113,7 +113,8 @@ ul.linklist > li:last-of-type {
 }
 
 .navbar-top .rightside i + span, .navbar-bottom i + span {
-	display:none;
+         font-size: 14px;
+         margin-right: 12px;
 }
 
 .quick-links i + span {
