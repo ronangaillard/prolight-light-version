@@ -174,13 +174,20 @@ a:hover	{ text-decoration: underline; }
 .site_logo {
 	background-repeat: no-repeat;
 	display: inline-block;
-	width: 153px;
+	width: 100px;
 	height: 52px;
 }
 
 /* Site description and logo */
 .site-description {
 	float: left;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+}
+
+.site-description p {
+         margin: 0;
 }
 
 .site-description h1 {
