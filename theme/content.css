@@ -620,6 +620,7 @@ dl.file dt {
 }
 
 dl.file dd {
+         display: none;
 	margin: 0;
 	padding: 0;
 }
